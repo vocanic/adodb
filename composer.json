@@ -1,0 +1,25 @@
+{
+  "name": "vocanic/adodb",
+  "type": "library",
+  "description": "Vocanic ADOdb Customization",
+  "keywords": ["adodb"],
+  "homepage": "http://vocanic.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thilina Hasantha",
+      "email": "thilina.hasantha@vocanic.com"
+    },
+    {
+      "name": "Vocanic",
+      "homepage": "http://vocanic.com"
+    }
+  ],
+  "require" : {
+    "php" : ">=5.3.2"
+  },
+
+  "autoload" : {
+    "files" : ["adodb.inc.php"]
+  }
+}
